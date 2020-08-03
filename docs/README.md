@@ -5,7 +5,7 @@ A high-end RC drift car is modified with 3D printed PELA blocks, LEGO technics, 
 
 To install, get the last preview release of [OpenSCAD](https://www.openscad.org/) then:
 
-`git clone git@github.com:LEGO-compatible-gadgets/PELA-drift-car.git --recurse-submodules`
+`git clone git@github.com:paulirotta/PELA-drift-car.git --recurse-submodules`
 
 ![PELA Carson Drift Car](images/pela-drift-car.jpg)
 
@@ -26,70 +26,70 @@ The fastest way to get support on designing and 3D printing your car parts is on
 
 ## Assembly Instructions
 
-[![PELA Drift Car Assembly](images/PELA-drift-car-assembly.png)](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-drift-car-assembly.stl)
+[![PELA Drift Car Assembly](images/PELA-drift-car-assembly.png)](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-drift-car-assembly.stl)
 
-[PELA Drift Car Assembly](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-drift-car-assembly.stl) Calibrate for your pinter as described in [PELA Blocks](https://pelablocks.org) and then export the calibrated models from [OpenSCAD](https://www.openscad.org/). Purchase a TT-02 car, boards, power bank battery and a bag of technic pegs as needed. Aseemble according to the image and linked websites above. Drive. Win. 
+[PELA Drift Car Assembly](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-drift-car-assembly.stl) Calibrate for your pinter as described in [PELA Blocks](https://pelablocks.org) and then export the calibrated models from [OpenSCAD](https://www.openscad.org/). Purchase a TT-02 car, boards, power bank battery and a bag of technic pegs as needed. Aseemble according to the image and linked websites above. Drive. Win. 
 
 
 ## Models
 
-[![PELA Drift Car Center Beam](images/PELA-drift-car-center-beam.png)](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-drift-car-center-beam.stl)
+[![PELA Drift Car Center Beam](images/PELA-drift-car-center-beam.png)](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-drift-car-center-beam.stl)
 
-[PELA Drift Car Center Beam](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-drift-car-center-beam.stl) A configurable spine that runs down the center of an RC car for attaching other PELA parts. This part makes future upgrades and field reconfiguration and repair easier and much faster by using only technic pegs are needed to make changes. For smaller printers, you may optionally render this as two shorter sections that can be joined by placing technic beams down the sides ovelapping both pieces. Use what you have laying around or print from [PELA technic beam](https://pelablocks.org).
-
-___
-
-[![PELA Drift Car End Connector](images/PELA-drift-car-end-connector.png)](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-drift-car-end-connector.stl)
-
-[PELA Drift Car End Connector](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-drift-car-end-connector.stl) An adapter for both ends of the Drift Car Center Beam. Two mounting holes at each end allow quick disconnect of the entire electronics beam from the donor Tamiya TT-02 1:10 RC drift car. From the drop-down menu in OpenSCAD you can select an alternative design for a Carson drift car. The end connector holes line up with each car's mount holes. Use long technic pegs or bolts to mount the end connector to the car near the suspension. The TT-02 model can be used for both front and back. The Carson connector only fits at the back of the car, so use a [strap mount](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/PELA-strap-mount.stl) of appropriate size for the front attachment.
+[PELA Drift Car Center Beam](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-drift-car-center-beam.stl) A configurable spine that runs down the center of an RC car for attaching other PELA parts. This part makes future upgrades and field reconfiguration and repair easier and much faster by using only technic pegs are needed to make changes. For smaller printers, you may optionally render this as two shorter sections that can be joined by placing technic beams down the sides ovelapping both pieces. Use what you have laying around or print from [PELA technic beam](https://pelablocks.org).
 
 ___
 
-[![PELA Drift Car Tamiya TT-02 Body Mount](images/PELA-body-mount.png)](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-body-mount.stl)
+[![PELA Drift Car End Connector](images/PELA-drift-car-end-connector.png)](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-drift-car-end-connector.stl)
 
-[PELA Drift Car Tamiya TT-02 Body Mount](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-body-mount.stl) An optional mounting point for a pre-made polycarbonate car body shell.
-
-___
-
-[![PELA Raspberry Pi 4 Technic Mount](https://pelablocks.org/technic-mount/PELA-raspberry-pi4-technic-mount.png)](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi4-technic-mount.stl)
-
-[PELA Raspberry Pi 4 Technic Mount](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi4-technic-mount.stl) A Raspberry Pi 3B+/4 holder.
+[PELA Drift Car End Connector](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-drift-car-end-connector.stl) An adapter for both ends of the Drift Car Center Beam. Two mounting holes at each end allow quick disconnect of the entire electronics beam from the donor Tamiya TT-02 1:10 RC drift car. From the drop-down menu in OpenSCAD you can select an alternative design for a Carson drift car. The end connector holes line up with each car's mount holes. Use long technic pegs or bolts to mount the end connector to the car near the suspension. The TT-02 model can be used for both front and back. The Carson connector only fits at the back of the car, so use a [strap mount](https://github.com/paulirotta/PELA-blocks/blob/master/PELA-strap-mount.stl) of appropriate size for the front attachment.
 
 ___
 
-[![PELA Jetson Nano Technic Mount](https://pelablocks.org//technic-mount/PELA-jetson-nano-technic-mount.png)](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-jetson-nano-technic-mount.stl)
+[![PELA Drift Car Tamiya TT-02 Body Mount](images/PELA-body-mount.png)](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-body-mount.stl)
 
-[PELA Jetson Nano Technic Mount](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-jetson-nano-technic-mount.stl) An NVIDEA Jetson Nano enclousure.
-
-___
-
-[![PELA PCA9685 16 Channel Servo Board Technic Mount](https://pelablocks.org/technic-mount/PELA-pca9685-servo-board-technic-mount.png)](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-pca9685-servo-board-technic-mount.stl)
-
-[PELA PCA9685 16 Channel Servo Board Technic Mount](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-pca9685-servo-board-technic-mount.stl) For holding a servo driver board to the center bar.
+[PELA Drift Car Tamiya TT-02 Body Mount](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-body-mount.stl) An optional mounting point for a pre-made polycarbonate car body shell.
 
 ___
 
-[![PELA Raspberry Pi Camera Technic Mount](https://pelablocks.org/technic-mount/PELA-raspberry-pi-camera-technic-mount.png)](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi-camera-technic-mount.stl)
+[![PELA Raspberry Pi 4 Technic Mount](https://pelablocks.org/technic-mount/PELA-raspberry-pi4-technic-mount.png)](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi4-technic-mount.stl)
 
-[PELA Raspberry Pi Camera Technic Mount](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi-camera-technic-mount.stl) A Raspberry Pi 3 camera holder.
-
-___
-
-[![PELA Technic Bent Beam](images/PELA-technic-bent-beam.png)](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-technic-bent-beam.stl)
-
-[PELA Technic Bent Beam](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-technic-bent-beam.stl) This is to mount the front wide angle Pi camera to the front TT-02 End Connector at a 30 degree down angle. Print two copies and make two small holes in the shell.
+[PELA Raspberry Pi 4 Technic Mount](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi4-technic-mount.stl) A Raspberry Pi 3B+/4 holder.
 
 ___
 
-[![PELA Vertical Attachment](images/PELA-carson-front-vertical-attachment.png)](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-carson-front-vertical-attachment.stl)
+[![PELA Jetson Nano Technic Mount](https://pelablocks.org//technic-mount/PELA-jetson-nano-technic-mount.png)](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-jetson-nano-technic-mount.stl)
 
-[PELA Vertical Attachment](https://github.com/LEGO-compatible-gadgets/PELA-drift-car/blob/master/PELA-carson-front-vertical-attachment.stl) Two copies of this stick down from the front part of the center beam on a Carson to help with wire tie attachment to the center beam of the car.
+[PELA Jetson Nano Technic Mount](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-jetson-nano-technic-mount.stl) An NVIDEA Jetson Nano enclousure.
 
 ___
 
-[![PELA Technic Sign](https://pelablocks.org/sign/PELA-technic-sign.png)](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/sign/PELA-technic-sign.stl)
+[![PELA PCA9685 16 Channel Servo Board Technic Mount](https://pelablocks.org/technic-mount/PELA-pca9685-servo-board-technic-mount.png)](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-pca9685-servo-board-technic-mount.stl)
 
-[PELA Technic Sign](https://github.com/LEGO-compatible-gadgets/PELA-blocks/blob/master/sign/PELA-technic-sign.stl) A sign you can use to name and label your model.
+[PELA PCA9685 16 Channel Servo Board Technic Mount](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-pca9685-servo-board-technic-mount.stl) For holding a servo driver board to the center bar.
+
+___
+
+[![PELA Raspberry Pi Camera Technic Mount](https://pelablocks.org/technic-mount/PELA-raspberry-pi-camera-technic-mount.png)](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi-camera-technic-mount.stl)
+
+[PELA Raspberry Pi Camera Technic Mount](https://github.com/paulirotta/PELA-blocks/blob/master/technic-mount/PELA-raspberry-pi-camera-technic-mount.stl) A Raspberry Pi 3 camera holder.
+
+___
+
+[![PELA Technic Bent Beam](images/PELA-technic-bent-beam.png)](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-technic-bent-beam.stl)
+
+[PELA Technic Bent Beam](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-technic-bent-beam.stl) This is to mount the front wide angle Pi camera to the front TT-02 End Connector at a 30 degree down angle. Print two copies and make two small holes in the shell.
+
+___
+
+[![PELA Vertical Attachment](images/PELA-carson-front-vertical-attachment.png)](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-carson-front-vertical-attachment.stl)
+
+[PELA Vertical Attachment](https://github.com/paulirotta/PELA-drift-car/blob/master/PELA-carson-front-vertical-attachment.stl) Two copies of this stick down from the front part of the center beam on a Carson to help with wire tie attachment to the center beam of the car.
+
+___
+
+[![PELA Technic Sign](https://pelablocks.org/sign/PELA-technic-sign.png)](https://github.com/paulirotta/PELA-blocks/blob/master/sign/PELA-technic-sign.stl)
+
+[PELA Technic Sign](https://github.com/paulirotta/PELA-blocks/blob/master/sign/PELA-technic-sign.stl) A sign you can use to name and label your model.
 
 
 ## Downloading
@@ -102,7 +102,7 @@ If you prefer to avoid git, you can download the files instead.
 
 ## Git Clone
 
-1. `git clone git@github.com:LEGO-compatible-gadgets/PELA-drift-car.git --recurse-submodules`
+1. `git clone git@github.com:paulirotta/PELA-drift-car.git --recurse-submodules`
 1. **Calibrate** the models to your printer/filament/slicer/preferences (see below)
 1. Before `git submodule update --remote` to get PELA Blocks project changes, you may want to [backup your print calibration files](http://pelablocks.org/#calibration-file-backup)
 
